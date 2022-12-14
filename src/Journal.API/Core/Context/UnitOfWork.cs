@@ -1,8 +1,9 @@
-﻿using Journal.API.Core.Repositories;
+﻿using Journal.API.Core.Interfaces;
+using Journal.API.Core.Repositories;
 
 namespace Journal.API.Core.Context
 {
-    public class UnitOfWork
+    public class UnitOfWork: IUnitOfWork
     {
         private readonly DatabaseContext _context;
 

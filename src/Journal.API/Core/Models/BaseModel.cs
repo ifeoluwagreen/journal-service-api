@@ -1,5 +1,6 @@
 ﻿using Journal.API.Core.Interfaces;
 using Newtonsoft.Json;
+using System;
 
 namespace Journal.API.Core.Models
 {
